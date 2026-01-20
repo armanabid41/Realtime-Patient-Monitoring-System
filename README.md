@@ -15,7 +15,7 @@ A low-cost, portable IoT-based biotelemetry system designed to monitor a patient
 
 ## 📸 Screenshots
 ### Python Dashboard (PC View)
-![Python Graph](Screenshots/2025-12-20 223157.png)
+![Python Graph](Screenshots/python_graph.png)
 
 ### Android App (Mobile View)
 ![App View](Screenshots/android_dashboard.jpg)
@@ -29,9 +29,7 @@ A low-cost, portable IoT-based biotelemetry system designed to monitor a patient
    ```bash
    pip install pyserial matplotlib
    python monitor.py
-   Android: Connect via Bluetooth using the RoboRemo or Bluetooth Electronics app.
+4. Android: Connect via Bluetooth using the RoboRemo or Bluetooth Electronics app.
 
-🔗 Author
-Arman Hossain Abid EEE Student, IIUC
-
-[www.linkedin.com/in/armanhossainabideee]
+🔗 Author :
+   Arman Hossain Abid, EEE Student, IIUC [www.linkedin.com/in/armanhossainabideee]
