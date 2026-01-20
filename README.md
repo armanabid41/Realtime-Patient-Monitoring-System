@@ -15,7 +15,7 @@ A low-cost, portable IoT-based biotelemetry system designed to monitor a patient
 
 ## 📸 Screenshots
 ### Python Dashboard (PC View)
-![Python Graph](Screenshots/20251220_224306.jpg)
+![Python Graph](Screenshots/2025-12-20 223157.png)
 
 ### Android App (Mobile View)
 ![App View](Screenshots/android_dashboard.jpg)
