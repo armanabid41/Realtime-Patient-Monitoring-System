@@ -7,7 +7,7 @@ void setup() {
 }
 
 void loop() {
-  // --- পার্ট ১: টেম্পারেচার সেন্সর (স্মুথ করা) ---
+  // --- পার্ট ১: টেম্পারেচার সেন্সর --
   // টেম্পারেচার সেন্সর খুব সেনসিটিভ, তাই আমরা ২০ বার রিডিং নিয়ে গড় করব
   float totalTemp = 0;
   for(int i = 0; i < 20; i++) {
@@ -17,18 +17,16 @@ void loop() {
     totalTemp += tempC;
     delay(2); // ছোট বিরতি
   }
-  float stableTemp = totalTemp / 20.0; // গড় তাপমাত্রা বের করলাম
+  float stableTemp = totalTemp / 20.0; // গড় তাপমাত্রা
 
 
   // --- পার্ট ২: পালস সেন্সর (রিয়েল হার্টবিট) ---
-  // পালস সেন্সরের জন্য আমরা গড় করব না, কারণ আমাদের হার্টবিটের "ঢেউ" দরকার
   int pulseRaw = analogRead(pulsePin);
 
   
   Serial.print(pulseRaw);
   Serial.print(",");
-  Serial.println(stableTemp); // লাইন শেষ
+  Serial.println(stableTemp); 
 
-  // গ্রাফ যাতে খুব দ্রুত না চলে যায়, তাই একটু ডিলে
   delay(10); 
 }
